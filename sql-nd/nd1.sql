@@ -1,0 +1,4 @@
+-- SELECT countrycode as Valstybes_kodas, language as Kalbos_pavadinimas
+-- FROM world.countrylanguage
+-- where isofficial = 'T' and (language like 'd%' or language like 'e%' or language like 'f%')
+-- order by countrycode asc, percentage desc
