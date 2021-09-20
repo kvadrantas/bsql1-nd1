@@ -1,11 +1,40 @@
 /* body * {border: 1px solid red;} */
+/* body * {border: 1px solid red;} */
 body {
-    background-color: #000;
+    /* background-color: #000; */
     color: #fff;
     text-align: center;
-    margin-top: 200px;
-    width: 80%;
-    margin-left: 10%;
+    /* margin-top: 200px; */
+    width: 90%;
+    margin-left: 5%;
+}
+
+.left-pane {
+    float: left;
+    width: 30%;
+    text-align: left;
+    border: 1px solid #dbd8bc;
+    background-color: #f8f8eb;
+    border-radius: 3px;
+    font-size: 15px;
+    padding: 13px 10px 13px 10px;
+    margin-bottom: 7px;
+}
+
+.left-pane a {
+    text-decoration: none;
+}
+
+.right-pane {
+    text-align: left;
+    float: right;
+    width: 62%;
+    border: 1px solid #bcd8db;
+    background-color: #EBF8F2;
+    border-radius: 3px;
+    font-size: 15px;
+    padding: 13px 10px 13px 10px;
+    margin-bottom: 7px;
 }
 
 .animation {
@@ -50,17 +79,7 @@ button:hover {
 }
 
 .content {
-    width: 70%;
-    margin-left: 15%;
-    text-align: left;
-    /* margin-left: 10%;
-    margin-right: 10%; */
-    border: 1px solid #bcd8db;
-    background-color: #EBF8F2;
-    border-radius: 3px;
-    font-size: 15px;
-    padding: 13px 10px 13px 10px;
-    margin-bottom: 7px;
+
 }
 
 .hide {
